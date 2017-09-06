@@ -1,0 +1,28 @@
+* {
+    margin-bottom: 0;}
+html, body {
+    height: 50%; width: 100%;
+	
+	
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: 76px;
+   position: relative;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 79px; 
+}
+.site-footer {
+  background: #D4CFCF; 
+  color: black;
+  
+  bottom:0;
+  width: 100%;  
+}
